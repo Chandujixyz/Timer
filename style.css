@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #FFFFFF;
+  
+}
+body{
+    background-color: #1d1d23;
+ 
+}
+h3{
+margin-top: 50px;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+ 
+}
+
+.timeset{
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    min-width: 300px;
+    max-width: 600px;
+    margin:15px auto;
+    background-color: #34344a;
+    border-radius: 7px;
+    padding: 0px 15px;
+}
+h4{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+ 
+}
+.time{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 300px;
+}
+.time::placeholder{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+ 
+}
+button{
+    border: none;
+    height: 20px ;
+    width: 60px;
+    border-radius:6px ;
+    background-color: #f0f757;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #34344a;    
+}
+
+#CurrentTimers{
+    height: 30px;
+    width: 250px;
+    background-color: #39393e;
+    margin:15px auto;
+    border-radius: 7px;
+}
+#CurrentTimers p{
+font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+ 
+}
+#hideP{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 20px;
+    
+}
+.hide{
+    display: none;
+}
+
+
