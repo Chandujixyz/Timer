@@ -11,13 +11,21 @@
     <h3>Multiple Timers App</h3>
 
     <div class="timeset">
-        <h4>set time</h4>
+        <h4>set time :</h4>
    
-    <div id="time-display">00:00:00</div>
+    <!-- <div id="time-display">00:00:00</div>
     <button onclick="setTime()">Set Time</button>
-    <button onclick="startTimer()" id="start-btn" disabled>Start</button>
+    <button onclick="startTimer()" id="start-btn" disabled>Start</button> -->
  
- 
+ <div class="time">
+    <div class="hh" contenteditable="true" min-va>HH</div>
+    <div class="colen" >:</div>
+    <div class="mm" contenteditable="true">MM</div>
+    <div class="colen">:</div>
+    <div class="ss" contenteditable="true">SS</div>
+ </div>
+
+ <button>set</button>
       
     </div>
 
@@ -25,7 +33,7 @@
          <p>Current Timers</p>
     </div>
 
-    <div>
+    <div id="timers">
         <p id="hideP">You have no timers currently!</p>
     </div>
 

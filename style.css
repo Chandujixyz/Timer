@@ -45,22 +45,16 @@ text-align: left;
  
 }
 .time{
-    background-color:transparent;
-    border: none;
-    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 100%;
-    width: 300px;
+    width: 130px;
 }
-.time::placeholder{
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 56px;
-letter-spacing: 0em;
-text-align: center;
-color: #FFFFFF;
+.hh,.ss,.mm{
+    min-width: 20px;
+}
  
-}
 button{
     border: none;
     height: 20px ;
