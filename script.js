@@ -134,6 +134,21 @@ const timerInterval = setInterval(() => {
         mmc = 59; // Reset seconds to 59
       } else {
         // Clear the interval when hhc reaches 0
+        h4.classList.add("hide");
+        timerContent.classList.add("hide");
+        deleteButton.innerText="Stop";
+        deleteButton.classList.add("bb");
+        deleteButton.classList.add("yc");
+        timerDiv.classList.add("yb");
+
+        const up=document.createElement("B");
+        up.innerText="Timer is Up !";
+        up.classList.add("bc");
+
+        timerDiv.append(up, deleteButton);
+        timersContainer.appendChild(timerDiv);
+
+        
         clearInterval(timerInterval);
 
       }

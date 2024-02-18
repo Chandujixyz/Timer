@@ -99,5 +99,17 @@ text-align: center;
 .hide{
     display: none;
 }
-
+.yb{
+    background-color: #f0f757;
+   
+}
+.bb{
+   background-color: #1d1d23;   
+}
+.yc{
+    color: #f0f757;
+}
+.bc{
+    color: #1d1d23;
+}
 
